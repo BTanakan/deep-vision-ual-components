@@ -1,10 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { DButton } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <Button>Test</Button>
+      <DButton>Test</DButton>
     </div>
   );
 }
